@@ -1,0 +1,217 @@
+/* Colors to be used 
+#FF6F61 - BITTERSWEET
+#F8FFE5 - LIGHTYELLOW
+#06C995 - CARIBBEAN GREEN
+#1B9AAA - LIGHT SEA GREEN
+#FFC43D - SUNGLOW
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+div.baseWidth {
+  width: 1000px;
+  margin: 0 auto;
+}
+div.clearflix {
+  overflow: hidden;
+}
+div.header {
+  background-color: rgb(32, 206, 148);
+  height: 410px;
+}
+div.topHeader {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(245, 251, 252);
+  position: relative;
+}
+div.logoTop {
+  width: 200px;
+  height: 100%;
+  /* background-color: #ffc43d; */
+}
+div.titleTop {
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  /* background-color: rgb(151, 250, 142); */
+}
+div.title {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* background-color: rgb(250, 243, 142); */
+  text-align: left;
+  font-size: 1.8em;
+}
+div.tagline {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+  /* background-color: rgb(31, 204, 152); */
+}
+div.login {
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: rgb(199, 255, 199); */
+  align-content: center;
+}
+div.login {
+  text-align: center;
+}
+div.login button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: #80b8fd;
+}
+
+div.login button:hover {
+  background-color: #15b422;
+  color: white;
+}
+/* .socialTop {
+    width: 250px;
+    height: 35px;
+    float: right;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    right: 160px;
+    z-index: 1;
+    background-color: rgba(243, 205, 243, 0.7);
+  } */
+div.sliderHeader {
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+div.newsHeader {
+  widows: 100%;
+  height: 30px;
+  background-color: palegoldenrod;
+}
+div.newsScroll {
+  margin-top: 6px;
+}
+div.navSection {
+  min-height: 40px;
+  background-color: #15b422;
+}
+div#nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+div#nav li {
+  position: relative;
+  left: 35%;
+  top: 0;
+  display: inline;
+}
+div#nav li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 16px;
+  color: white;
+}
+div#nav li a:hover {
+  background-color: rgb(255, 43, 6);
+  transition: 0.5s;
+}
+div.contentSection {
+  height: 454px;
+  background-color: rgb(255, 255, 255);
+}
+div.sideContent {
+  width: 226px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url(img/back1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  float: left;
+  margin: 2px auto;
+}
+/* div#sideulitems {
+  width: 100%;
+  height: 70%;
+  background-color: aliceblue;
+  position: absolute;
+  top: 16%;
+  left: 0;
+} */
+div#sideulitems ul {
+  list-style-type: none;
+  font-size: 1.5em;
+  position: relative;
+  top: 70px;
+  left: 1px;
+}
+div#sideulitems ul li {
+  margin: 20px;
+  background-color: rgb(26, 128, 218);
+}
+div#sideulitems ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 10px;
+  text-align: center;
+}
+div#sideulitems ul li a:hover {
+  background-color: rgb(32, 206, 148);
+}
+/* .sideContent ul li {
+  list-style-type: none;
+  background-color: rgb(30, 179, 109);
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 10;
+  left: 0;
+}
+.sideContent li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+} */
+div.mainContent {
+  width: 772px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url(img/maincontentback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: ;
+  position: relative;
+  float: right;
+  margin: 2px auto;
+  clear: both;
+}
+
+div.footerSection {
+  height: 30px;
+  margin-bottom: 5px;
+  background-color: blueviolet;
+}
